@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  max-width: 73.125rem; /*1170px*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newWord {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+    font-size: 24px;
+    padding: 16px;
+}
+
+button:hover {
+   box-shadow: #003CC5 0 0px 0px 40px inset;
+}
